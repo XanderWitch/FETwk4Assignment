@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flare Trigger List</title>
+        <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+</head>
+<body class="container">
+    <img src="fire.png" class="img-fluid mx-auto d-block mt-5" src="flame">
+    <h1 class="text-center mt-1">Flare Trigger List</h1>
+    <p class="text-center mt-2">Keep track of things (foods, activities, sleep deprivation, etc.) that might be triggering pain or allergy flares with this handy form. Add and delete triggers as necessary.</p>
+    <form id="trigger-form">
+        <div class="card text-white bg-dark mt-4">
+            <div class="form-group m-3">
+                <label for="new-trigger-date">Date</label>
+                <input type="date" class="form-control" id="new-trigger-date">
+        
+                <label for="new-trigger-description" class="mt-3">Trigger Description</label>
+                <input type="text" class="form-control" id="new-trigger-description">
+
+                <label for="new-symptoms" class="mt-3">Symptoms</label>
+                <input type="text" class="form-control" id="new-symptoms">
+                
+                <input type="submit" value="Add Trigger" class="btn btn-info form-control mt-3">   
+            </div>
+        </div>
+            <table class="table table-dark table-striped mt-5">
+                <thead class="row-dark">
+                    <tr>
+                        <th scope="col">Date</th>
+                        <th scope="col">Description</th>
+                        <th scope = "col">Symptoms</th>
+                        <th scope = "col"></th>
+                    </tr>
+                </thead>
+                <tbody id="trigger-list"></tbody>
+            </table>
+    </div>
+    
+    <script src="index.js"></script>
+    <script src="node_modules/jquery/dist/jquery.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+</body>
+</html>

@@ -1,0 +1,15 @@
+{
+  "name": "febc-fetwk4codingassignment",
+  "version": "1.0.0",
+  "description": "1.\tUsing HTML, Bootstrap, and JavaScript create a single page website that contains the following:",
+  "main": "b.\tA Bootstrap styled form that allows ",
+  "scripts": {
+    "test": "d."
+  },
+  "author": "Janell Robisch",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^5.1.3",
+    "jquery": "^3.6.0"
+  }
+}
